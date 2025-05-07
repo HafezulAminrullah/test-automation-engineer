@@ -20,7 +20,7 @@ describe('Product Page', () => {
       cy.contains('button', 'Create').click();
   
       // Assert that the form or confirmation message is still visible
-      cy.contains('Create').should('exist'); // Adjust this based on what stays on screen
+      cy.contains('Create').should('exist'); 
     });
   });
   
